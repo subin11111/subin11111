@@ -75,7 +75,7 @@
 
 **RGB-D 관측에서 3차원 지도, 층간 경로와 사진 길안내까지.** iPhone의 RGB·LiDAR 깊이·ARKit 포즈를 활용해 실내외 공간을 복원하고, 여러 촬영본의 연결과 보행 경로 탐색을 연구합니다. 건국대학교 제1학생회관을 대상으로 실외 접근로·로비·계단·2층을 하나의 지도에 연결했습니다.
 
-`Python` `OpenCV` `Open3D` `ROS 2` `Three.js` &nbsp; / &nbsp; **RGB-D SLAM · 강건 최적화 · A* 경로 탐색**
+`Python` `OpenCV` `Open3D` `ROS 2` `Three.js` &nbsp; / &nbsp; **RGB-D SLAM · 강건 최적화 · A\* 경로 탐색**
 
 [공개 연구 저장소 ↗](https://github.com/subin11111/folded-city-atlas-public) &nbsp;·&nbsp; [웹 지도 ↗](https://folded-city-atlas.vercel.app/) &nbsp;·&nbsp; [연구 과정 ↗](https://github.com/subin11111/folded-city-atlas-public/blob/main/README_HISTORY.md)
 
