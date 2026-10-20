@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+<title id="title">Subin. — Autonomous Systems</title>
+<desc id="desc">건국대학교 스마트운행체공학과. 2026 Team K.A.I. 자율주행 PM. 자율주행을 만들고, 시스템을 연결합니다.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f8fc"/><stop offset="1" stop-color="#edf2fa"/></linearGradient>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111d37"/><stop offset="1" stop-color="#1c345b"/></linearGradient>
+  <linearGradient id="route" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#528aff"/><stop offset="1" stop-color="#a4e8f4"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b7d0fc" stroke-opacity=".08"/></pattern>
+  <clipPath id="rounded"><rect width="1440" height="440" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#rounded)">
+  <rect width="1440" height="440" fill="url(#paper)"/>
+  <rect x="930" width="510" height="440" fill="url(#night)"/>
+  <rect x="930" width="510" height="440" fill="url(#grid)"/>
+  <path d="M930 0H1006L930 440Z" fill="#e4ebf7"/>
+  <g font-family="Segoe UI,Arial,Malgun Gothic,sans-serif">
+    <rect x="68" y="55" width="9" height="9" rx="2" fill="#3566ee"/>
+    <text x="91" y="67" fill="#526783" font-size="18" font-weight="600" letter-spacing="3">AUTONOMOUS SYSTEMS</text>
+    <text x="62" y="203" fill="#172541" font-size="124" font-weight="750" letter-spacing="-5">Subin<tspan fill="#3566ee">.</tspan></text>
+    <text x="70" y="264" fill="#334762" font-size="30" font-weight="500">자율주행을 만들고, 시스템을 연결합니다.</text>
+    <rect x="70" y="316" width="79" height="38" rx="19" fill="#3566ee"/>
+    <text x="109.5" y="341" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">2026</text>
+    <text x="166" y="342" fill="#172541" font-size="24" font-weight="600">Team K.A.I. 자율주행 PM</text>
+    <text x="72" y="394" fill="#6e7e95" font-size="20">건국대학교 스마트운행체공학과</text>
+  </g>
+  <g fill="none" stroke="#a9c5f4" stroke-opacity=".17">
+    <circle cx="1204" cy="216" r="153"/><circle cx="1204" cy="216" r="112"/><circle cx="1204" cy="216" r="70"/>
+    <path d="M1033 216H1375M1204 45V387" stroke-dasharray="3 7"/>
+  </g>
+  <path d="M1040 358C1086 330 1099 300 1108 250S1146 186 1197 184S1262 166 1273 120S1320 60 1385 60" fill="none" stroke="#7daefb" stroke-opacity=".1" stroke-width="55"/>
+  <path d="M1040 358C1086 330 1099 300 1108 250S1146 186 1197 184S1262 166 1273 120S1320 60 1385 60" fill="none" stroke="url(#route)" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#192e50" stroke="#99d7f0" stroke-width="3"><circle cx="1040" cy="358" r="6"/><circle cx="1108" cy="250" r="6"/><circle cx="1273" cy="120" r="6"/><circle cx="1385" cy="60" r="6"/></g>
+  <g transform="translate(1197 184) rotate(80)">
+    <rect x="-16" y="-25" width="32" height="50" rx="10" fill="#eff6ff"/>
+    <path d="M-10-10H10L8-18H-8Z" fill="#547fbd"/>
+    <path d="M-9 9H9L8 17H-8Z" fill="#547fbd"/>
+    <rect x="-20" y="-17" width="4" height="12" rx="2" fill="#eff6ff"/><rect x="16" y="-17" width="4" height="12" rx="2" fill="#eff6ff"/>
+    <rect x="-20" y="8" width="4" height="12" rx="2" fill="#eff6ff"/><rect x="16" y="8" width="4" height="12" rx="2" fill="#eff6ff"/>
+  </g>
+  <g fill="#b9cdf0" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="2"><text x="1058" y="403">CONTROL</text><text x="1275" y="403">ROBOTICS</text></g>
+</g>
+<rect x=".5" y=".5" width="1439" height="439" rx="25.5" fill="none" stroke="#172541" stroke-opacity=".06"/>
+</svg>

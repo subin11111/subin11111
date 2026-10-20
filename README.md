@@ -1,26 +1,17 @@
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="Subin — From control to autonomy. Team K.A.I. Project Manager 2026, Control 2025·2024.">
+<p>
+  <img src="assets/profile-hero.svg" width="100%" alt="Subin. 자율주행을 만들고, 시스템을 연결합니다. 2026 Team K.A.I. 자율주행 PM · 건국대학교 스마트운행체공학과">
 </p>
 
 <p align="center">
-  <b>차량을 움직이는 제어부터, 하나로 동작하는 자율주행 시스템까지.</b><br>
-  건국대학교 스마트운행체공학과 · Team K.A.I. 자율주행팀<br>
-  <sub>2026 자율주행 PM·인지파트 · 2025 제어파트·총무 · 2024 제어파트</sub>
+  <a href="#team-kai"><b>경력</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="#awards"><b>수상</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="#projects"><b>프로젝트</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="#experience"><b>활동</b></a>
 </p>
 
-<p align="center">
-  <a href="#team-kai">Team K.A.I.</a> &nbsp;·&nbsp;
-  <a href="#awards">Awards</a> &nbsp;·&nbsp;
-  <a href="#projects">Projects</a> &nbsp;·&nbsp;
-  <a href="#experience">Experience</a> &nbsp;·&nbsp;
-  <a href="PROJECTS.md">프로젝트 상세</a>
-</p>
+<br>
 
----
-
-자율주행 차량의 **임베디드 제어, ROS 2 통합, 시뮬레이션과 검증 도구**를 개발합니다. 2026년에는 Team K.A.I. 자율주행 PM으로 활동하며 인지파트에도 참여하고 있습니다. 2025년에는 제어와 팀 운영을 함께 맡았고, 2024년에는 제어파트 파트원으로 활동했습니다.
-
-로봇이 주변 공간을 이해하고 움직이는 과정에 관심이 있습니다. UAV·UGV 협업, RGB-D 기반 공간 지도와 실내 길찾기를 실험하고, 일상의 문제를 해결하는 지도 서비스와 웹 게임도 만듭니다.
+임베디드 제어와 **ROS 2**를 바탕으로 차량과 소프트웨어를 연결합니다. 현재 **Team K.A.I. 자율주행 PM**으로 활동하며, 시뮬레이션·시스템 통합·검증 도구를 개발합니다. 공간을 이해하는 지도와 UAV·UGV 협업도 연구합니다.
 
 <a id="team-kai"></a>
 
@@ -28,7 +19,7 @@
 
 | 연도 | 역할 | 활동 |
 | :--- | :--- | :--- |
-| **2026** | **자율주행 PM · 인지파트** | 자율주행 프로젝트 관리 · 시스템 통합 · 인지파트 참여 |
+| **2026** | **자율주행 PM** | 자율주행 프로젝트 관리 · 시스템 통합 |
 | **2025** | **제어파트 · 회장단 총무** | ROS 2 차량 제어 · 팀 운영 · e-스마트 모빌리티 및 창작 모빌리티 대회 참가 |
 | **2024** | 자율주행팀 **제어파트 파트원** | 자작자율차 개발 · 전국 대학생 창작 모빌리티 경진대회 참가 |
 
@@ -41,7 +32,7 @@
 
 <sub>2026 팀 개발 내용과 2025 공개 제어 프로젝트를 함께 소개합니다. 구성요소별 개발·검증 단계는 서로 다릅니다.</sub>
 
-**팀 협업 맥락** · 인지파트는 센서에서 주변 환경 정보를 만들고, 판단파트는 이를 주행 행동과 경로로 연결합니다. 제 개인 프로필에서는 두 파트의 역할만 요약합니다.
+**시스템 통합** · 센서 인지와 주행 판단의 출력을 차량 제어로 연결하는 통합 구조를 다룹니다.
 
 [2025 ROS 2 제어 저장소 ↗](https://github.com/subin11111/ros2-autonomous-control) &nbsp;·&nbsp; [TeamKAI-DL ↗](https://github.com/TeamKAI-DL) &nbsp;·&nbsp; [제어·통합 프로젝트 상세 ↗](PROJECTS.md#team-control)
 
@@ -108,7 +99,7 @@
 <details open>
 <summary><b>2026 · Project management & autonomous systems</b></summary>
 
-- 건국대학교 Team K.A.I. 자율주행 **PM · 인지파트**
+- 건국대학교 Team K.A.I. 자율주행 **PM**
 - **국민대학교 자율주행 경진대회 특별상**
 - 대학생 AI·SW 모빌리티 경진대회 자작자율차 부문 관련 활동
 - **Folded City** — 건국대학교 학술공모전 성(誠) 분야, 실내외 지도·경로 탐색 연구
