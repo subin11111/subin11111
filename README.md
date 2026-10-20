@@ -6,7 +6,8 @@
   <a href="#team-kai"><b>경력</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="#awards"><b>수상</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="#projects"><b>Team K.A.I. 프로젝트</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="#experience"><b>활동</b></a>
+  <a href="#experience"><b>활동</b></a> &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="PUBLIC_REPOSITORIES.md"><b>저장소 안내</b></a>
 </p>
 
 <br>
@@ -151,7 +152,7 @@ iPhone RGB·LiDAR 깊이·ARKit 포즈에서 실내외 공간을 복원하고, �
 | **Life Map Diary** | 전국 읍면동별 일상·사진 기록과 통계를 쌓는 개인 지도 서비스 | [코드](https://github.com/subin11111/travel-map-diary) |
 | **GOBBLEFIN** | 물고기를 먹고 성장하는 Canvas 기반 실시간 경쟁 웹 아케이드 | [코드](https://github.com/subin11111/gobblefin) · [플레이](https://gobblefin-reef-arena.hazy-skink-6279.chatgpt.site) |
 
-[전체 프로젝트와 기술 상세 보기 ↗](PROJECTS.md)
+[전체 프로젝트와 기술 상세 보기 ↗](PROJECTS.md) &nbsp;·&nbsp; [공개 저장소 둘러보기 ↗](PUBLIC_REPOSITORIES.md)
 
 <a id="experience"></a>
 
