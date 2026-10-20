@@ -15,7 +15,7 @@
   <path d="M930 0H1006L930 440Z" fill="#e4ebf7"/>
   <g font-family="Segoe UI,Arial,Malgun Gothic,sans-serif">
     <rect x="68" y="55" width="9" height="9" rx="2" fill="#3566ee"/>
-    <text x="91" y="67" fill="#526783" font-size="18" font-weight="600" letter-spacing="3">AUTONOMOUS SYSTEMS</text>
+    <text x="91" y="67" fill="#526783" font-size="18" font-weight="600" letter-spacing="3">AUTONOMOUS DRIVING</text>
     <text x="62" y="203" fill="#172541" font-size="124" font-weight="750" letter-spacing="-5">Subin<tspan fill="#3566ee">.</tspan></text>
     <text x="70" y="264" fill="#334762" font-size="30" font-weight="500">자율주행을 만들고, 시스템을 연결합니다.</text>
     <rect x="70" y="316" width="79" height="38" rx="19" fill="#3566ee"/>

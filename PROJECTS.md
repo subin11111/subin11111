@@ -12,6 +12,8 @@
 
 ### 2026 — 임베디드 제어·검증 환경 확장
 
+> **2026 대회가 진행 중이므로 해당 Team K.A.I. 프로젝트 저장소와 소스코드는 비공개입니다. 공개 포트폴리오에는 프로젝트 개요만 소개합니다.**
+
 아래는 PM으로 참여하는 팀 시스템의 개발 내용입니다. 구성요소의 개발·시험 단계는 각각 다릅니다.
 
 | 영역 | 프로젝트 내용 |
@@ -28,7 +30,7 @@
 
 **기술:** ROS 2 Humble, C/C++, Python, STM32, micro-ROS, CAN, Gazebo, HIL, MPC
 
-[TeamKAI-DL](https://github.com/TeamKAI-DL) · 팀 내부 저장소는 접근 권한이 필요합니다.
+**저장소 공개 상태:** 대회 진행 중으로 비공개.
 
 ### 2025 — ROS 2 통합 차량 제어
 
@@ -108,6 +110,8 @@ PX4-Autopilot/ASP 제공 환경을 기반으로 UAV와 UGV가 같은 Gazebo 월�
 작업 범위는 기존 PX4·ASP 환경을 바탕으로 저장소에 기록한 수정·확장과 연동 실험입니다.
 
 ## 5. Autonomous Driving Platform
+
+<a id="autonomous-platform"></a>
 
 차선 인식, 주행 명령 생성과 MCU 통신을 연결하는 ROS 2 기반 자율주행 통합 프로젝트입니다.
 
