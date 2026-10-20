@@ -47,7 +47,31 @@
 
 자율주행팀 제어파트 파트원으로 자작자율차 개발에 참여하고, 전국 대학생 창작 모빌리티 경진대회 자작자율차 부문에 참가했습니다.
 
-## 2. Folded City — 실내외 지도와 경로 탐색
+<a id="kookmin-competition"></a>
+
+## 2. 국민대학교 자율주행 경진대회 — Xycar 통합 주행
+
+**2026 국민대학교 자율주행 경진대회 특별상 · Team K.A.I. 팀 프로젝트**
+
+ROS 2 Humble 기반 Xycar에서 차선 주행과 대회 미션을 연결한 실차 통합 프로젝트입니다. 카메라·LiDAR의 환경 정보를 이용해 주행 후보를 만들고, 상황별 우선순위와 랩 정책에 따라 최종 명령을 선택합니다.
+
+| 영역 | 프로젝트 내용 |
+| --- | --- |
+| 차선 주행 | 영상 기반 중앙선 경로와 Pure Pursuit·Stanley 혼합 제어 |
+| 미션 통합 | 신호등 대응, 지름길 선택, 라바콘 주행, 차량 회피 간 우선순위 전환 |
+| 랩 정책 | 3바퀴 주행에서 출발과 지름길 선택을 관리하는 상태·세션 처리 |
+| 모터 출력 | 단일 출력 게이트를 통한 VESC 명령과 상태·fault 감시 |
+| 기록·검증 | ROS bag 기록, 독립 빌드, 미션·랩 정책 단위 테스트 |
+
+**기술:** ROS 2 Humble, Python, Xycar, Camera, LiDAR, Pure Pursuit, Stanley, VESC
+
+**팀 검증 기록:** [원본 README](https://github.com/steveandy-sudo/kookmin_autonomous_competition_teamKAI#현재-검증-상태)에 2026-08-23 실차 통합 주행 3바퀴 완주와 관련 pytest 320개 통과가 기록되어 있습니다.
+
+**저장소:** 공동 작업 이력과 원본 연결을 유지하기 위해 개인 계정에 포크했습니다.
+
+[개인 계정의 대회 저장소](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) · [원본 팀 저장소](https://github.com/steveandy-sudo/kookmin_autonomous_competition_teamKAI)
+
+## 3. Folded City — 실내외 지도와 경로 탐색
 
 **질문:** 건물 앞에서 끝나는 지도를 목적지의 문 앞까지 이어갈 수 있을까?
 
@@ -65,7 +89,7 @@ iPhone의 RGB-D와 저장 포즈로 공간을 복원하고, 실외·로비·계�
 
 [공개 연구·코드](https://github.com/subin11111/folded-city-atlas-public) · [연구 이력](https://github.com/subin11111/folded-city-atlas-public/blob/main/README_HISTORY.md) · [웹 지도](https://folded-city-atlas.vercel.app/)
 
-## 3. ASP — UAV·UGV 협업 시뮬레이션
+## 4. ASP — UAV·UGV 협업 시뮬레이션
 
 PX4-Autopilot/ASP 제공 환경을 기반으로 UAV와 UGV가 같은 Gazebo 월드에서 동작하도록 연동했습니다. 시뮬레이터 구성과 ROS 2 미션 코드를 서로 다른 저장소에서 관리합니다.
 
@@ -83,7 +107,7 @@ PX4-Autopilot/ASP 제공 환경을 기반으로 UAV와 UGV가 같은 Gazebo 월�
 
 작업 범위는 기존 PX4·ASP 환경을 바탕으로 저장소에 기록한 수정·확장과 연동 실험입니다.
 
-## 4. Autonomous Driving Platform
+## 5. Autonomous Driving Platform
 
 차선 인식, 주행 명령 생성과 MCU 통신을 연결하는 ROS 2 기반 자율주행 통합 프로젝트입니다.
 
@@ -96,7 +120,7 @@ PX4-Autopilot/ASP 제공 환경을 기반으로 UAV와 UGV가 같은 Gazebo 월�
 
 [저장소](https://github.com/subin11111/autonomous-driving-platform)
 
-## 5. Life Map Diary
+## 6. Life Map Diary
 
 전국 읍면동별로 일상과 사진을 남기는 개인 기록 지도입니다. 기록이 쌓이는 지역을 색으로 표시하고, 지역별 타임라인과 통계를 제공합니다.
 
@@ -109,7 +133,7 @@ PX4-Autopilot/ASP 제공 환경을 기반으로 UAV와 UGV가 같은 Gazebo 월�
 
 [저장소](https://github.com/subin11111/travel-map-diary)
 
-## 6. GOBBLEFIN
+## 7. GOBBLEFIN
 
 작은 물고기를 먹고 성장하는 실시간 경쟁형 웹 아케이드 게임입니다.
 
@@ -122,9 +146,11 @@ PX4-Autopilot/ASP 제공 환경을 기반으로 UAV와 UGV가 같은 Gazebo 월�
 
 [저장소](https://github.com/subin11111/gobblefin) · [플레이](https://gobblefin-reef-arena.hazy-skink-6279.chatgpt.site)
 
-## 7. Bike Anomaly
+## 8. Bike Anomaly — ADP LAB 동계 인턴
 
-이상 탐지와 조기 경보를 위한 실험 프로젝트입니다. 비지도 학습과 ML·DL 접근, 표 형식·시계열 입력, 데이터셋 구성과 평가 도구를 비교·정리했습니다.
+**2026 동계 인턴 · 건국대학교 ADP LAB · 문창주 교수님 연구실**
+
+연구실 동계 인턴으로 진행한 이상 탐지·조기 경보 프로젝트입니다. 비지도 학습과 ML·DL 접근, 표 형식·시계열 입력, 데이터셋 구성과 평가 도구를 비교·정리했습니다.
 
 **기술:** Python, 비지도 학습, 머신러닝, 딥러닝, 시계열 분석
 

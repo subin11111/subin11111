@@ -42,7 +42,7 @@
 
 | 이력 연도 | 대회·프로그램 | 결과 |
 | :--- | :--- | :--- |
-| **2026** | 국민대학교 자율주행 경진대회 | **특별상** |
+| **2026** | [국민대학교 자율주행 경진대회](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) | **특별상** |
 | **2025** | 대학생 창작 모빌리티 경진대회 · 자작자율차 부문 | **창작기술 우수상 · 1위** |
 | **2025** | 대학생 창작 모빌리티 경진대회 · 자작자율차 부문 | **자율주행성능 특별상** |
 | **2025** | 건국대학교 창의설계경진대회 | **장려상 · 공학교육혁신센터장상** |
@@ -61,6 +61,16 @@
 <a id="projects"></a>
 
 ## 03 / Projects
+
+### 국민대학교 자율주행 경진대회 — Xycar 통합 주행
+
+**2026 국민대학교 자율주행 경진대회 특별상 · Team K.A.I.** ROS 2 Humble 기반 Xycar에서 차선 추종, 신호등 대응, 지름길 선택, 라바콘 주행과 차량 회피를 통합한 팀 프로젝트입니다. Pure Pursuit·Stanley 기반 제어와 미션 우선순위 전환, 단일 모터 명령 출력을 연결했습니다.
+
+`ROS 2 Humble` `Python` `Xycar` `Camera · LiDAR` `Pure Pursuit · Stanley`
+
+[대회 코드 ↗](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) &nbsp;·&nbsp; [프로젝트 상세 ↗](PROJECTS.md#kookmin-competition)
+
+<sub>공동 작업의 이력과 출처를 유지한 팀 저장소 포크입니다.</sub>
 
 ### Folded City — 공간을 잇는 지도
 
@@ -86,7 +96,7 @@
 | **Autonomous Driving Platform** | 차선 인식·주행 명령·MCU 통신을 연결하는 ROS 2 통합 플랫폼 | [autonomous-driving-platform](https://github.com/subin11111/autonomous-driving-platform) |
 | **Life Map Diary** | 전국 읍면동별 일상·사진 기록과 통계를 쌓는 개인 지도 서비스 | [travel-map-diary](https://github.com/subin11111/travel-map-diary) |
 | **GOBBLEFIN** | 물고기를 먹고 성장하는 Canvas 기반 실시간 경쟁 웹 아케이드 | [gobblefin](https://github.com/subin11111/gobblefin) · [플레이](https://gobblefin-reef-arena.hazy-skink-6279.chatgpt.site) |
-| **Bike Anomaly** | 이상 탐지와 조기 경보를 위한 비지도 학습·ML·DL 비교 실험 | 비공개 · 연구 요약 |
+| **Bike Anomaly · ADP LAB 동계 인턴** | 건국대학교 문창주 교수님 연구실에서 진행한 2026 동계 인턴 프로젝트 · 이상 탐지·조기 경보 ML/DL 실험 | 비공개 · 연구 요약 |
 
 <sub>Folded City의 연구·공개 저장소와 ASP의 시뮬레이터·ROS 2 저장소는 각각 하나의 프로젝트로 묶었습니다.</sub>
 
@@ -100,7 +110,8 @@
 <summary><b>2026 · Project management & autonomous systems</b></summary>
 
 - 건국대학교 Team K.A.I. 자율주행 **PM**
-- **국민대학교 자율주행 경진대회 특별상**
+- 건국대학교 **ADP LAB 동계 인턴** — 문창주 교수님 연구실 · Bike Anomaly 이상 탐지·조기 경보 프로젝트
+- **[국민대학교 자율주행 경진대회 특별상](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI)** — Xycar 통합 주행 팀 프로젝트
 - 대학생 AI·SW 모빌리티 경진대회 자작자율차 부문 관련 활동
 - **Folded City** — 건국대학교 학술공모전 성(誠) 분야, 실내외 지도·경로 탐색 연구
 
