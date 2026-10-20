@@ -67,22 +67,28 @@ Xycar에서 **차선 추종·신호등·지름길·라바콘·차량 회피**를
 
 ---
 
-### 2025 · ROS 2 Autonomous Control — 자작자율차 구동·조향 통합 제어
+### 2025 · Team K.A.I. — 인지에서 차량 제어까지
 
-**Team K.A.I. 제어파트 · 회장단 총무**
+**자작자율차 팀 프로젝트 · 개인 역할: 제어파트 · 회장단 총무**
 
-Arduino Mega VCU와 ROS 2를 연결해 **가속 입력부터 모터 명령·피드백까지의 차량 제어 경로**를 구성했습니다. C++ 모터·조향 노드와 Python 시리얼·모드 선택 노드를 함께 운용하는 구조입니다.
+카메라·LiDAR와 RTK / INS로 환경을 읽고, 경로·속도를 계획하고, VCU를 통해 구동·조향으로 연결한 **Team K.A.I.의 전체 자율주행 시스템**입니다. 2025년 11월 3일 기준 자료를 인지·판단·제어·통합으로 묶어 정리했습니다.
 
-- **구동 제어** — 페달·차량 입력을 시리얼로 수신하고 수동/자율 RPM 명령을 선택해 CAN으로 전달
-- **조향 제어** — 목표 조향각을 모터 위치 명령으로 변환하고 엔코더 피드백 수신
-- **모드·비상정지** — AUTO / MANUAL / ESTOP 전환과 하드웨어·소프트웨어 정지 경로
-- **관측·통합** — 실제 RPM과 조향 상태를 ROS 2 토픽으로 확인하고 통신·운용 절차 문서화
+| 파트 | 프로젝트 내용 |
+| :--- | :--- |
+| **인지·위치 추정** | 콘 검출·센서 보정·추적, 카메라·LiDAR와 RTK / INS 관련 구성 |
+| **판단·경로 추종** | 전역·로컬 경로, 콘 라벨링, 속도 계획, Pure Pursuit 추종 |
+| **차량 제어 · 개인 참여** | Arduino Mega VCU, 구동·조향 노드, CAN·시리얼 통신, 수동/자율 모드와 상태 관측 |
+| **통합·운용** | 파트 간 ROS 2 메시지·실행 구성, RViz·대시보드와 운용 문서 |
 
 **팀 성과** · 2025 대학생 창작 모빌리티 경진대회 자작자율차 부문 **창작기술 우수상(1위) · 자율주행성능 특별상**
 
-`ROS 2` `C++` `Python` `Arduino Mega` `CAN` `Serial` `VCU`
+> **전체 원본과 대회용 구현·설정은 대회 준비를 위해 비공개입니다. 공개 포트폴리오에는 인지·판단·제어의 선별·축약 코드와 사용 기술을 소개합니다.**
 
-[공개 제어 코드 ↗](https://github.com/subin11111/ros2-autonomous-control) &nbsp;·&nbsp; [연도별 제어 프로젝트 ↗](PROJECTS.md#team-control)
+`ROS 2 Humble` `C++` `Python` `Camera · LiDAR` `RTK / INS` `Path Planning` `Arduino VCU` `CAN · Serial`
+
+[2025 자율주행 포트폴리오 ↗](https://github.com/subin11111/teamkai-2025-portfolio) &nbsp;·&nbsp; [인지·판단·제어 선별 코드 ↗](https://github.com/subin11111/teamkai-2025-portfolio/tree/main/examples) &nbsp;·&nbsp; [기술과 역할 ↗](https://github.com/subin11111/teamkai-2025-portfolio/blob/main/SKILLS.md)
+
+<sub>인지·판단·제어는 팀 공동 작업이며, 개인 참여 영역은 제어파트와 팀 운영입니다. 공개 예제는 대회용 원본과 분리한 설명용 코드입니다.</sub>
 
 <a id="awards"></a>
 
