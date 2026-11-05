@@ -12,7 +12,7 @@
 
 <br>
 
-제 프로젝트의 중심은 **Team K.A.I. 자율주행 차량 개발**입니다. 2026년에는 **자율주행 PM**으로 인지·판단·제어 전반의 협업과 시스템 통합을 관리하며 **인지와 제어에 주로 관여**했습니다. [**2026 대학생 AI·S/W 모빌리티 경진대회 대상 · 랩타임 1위 · 기술보고서 1위**](https://github.com/subin11111/teamkai-2026-portfolio)를 팀과 함께 달성했습니다.
+제 프로젝트의 중심은 **Team K.A.I. 자율주행 차량 개발**입니다. 2026년에는 **자율주행 PM**으로 인지·판단·제어 전반의 협업과 시스템 통합을 관리하며 **인지와 임베디드 제어에 주로 관여**했습니다. [**2026 대학생 AI·S/W 모빌리티 경진대회 대상 · 랩타임 1위 · 기술보고서 1위**](https://github.com/subin11111/teamkai-2026-portfolio)를 팀과 함께 달성했습니다.
 
 <a id="team-kai"></a>
 
@@ -32,15 +32,16 @@
 
 **대상 · 랩타임 1위 · 기술보고서 1위 / 자율주행 PM**
 
-2026 대학생 AI·S/W 모빌리티 경진대회에서 <strong>자작자율차 부문 대상(국토교통부장관상)</strong>과 **창작기술부문 특별상**을 수상한 팀 프로젝트입니다. PM으로 인지·판단·제어 전반의 일정과 협업, 시스템 통합·실차 검증을 관리했으며 **인지와 차량 제어의 개발·통합에 주로 참여**했습니다.
+2026 대학생 AI·S/W 모빌리티 경진대회에서 <strong>자작자율차 부문 대상(국토교통부장관상)</strong>과 **창작기술부문 특별상**을 수상한 팀 프로젝트입니다. PM으로 인지·판단·제어 전반의 일정과 협업, 시스템 통합·실차 검증을 관리했으며 **인지와 임베디드 제어의 개발·통합에 주로 참여**했습니다.
 
 - **프로젝트 운영** — 개발 목표와 우선순위, 파트 간 인터페이스, 시험·이슈·재검증, 현장 운용과 기술 문서 협업 관리
 - **인지·위치 추정** — 카메라·LiDAR 관측과 GNSS·IMU·휠 속도 기반 위치 정보를 판단·제어로 연결
-- **판단·추종·제어** — 미션 상태와 경로·속도 계획, Pure Pursuit·Stanley 추종, STM32·micro-ROS·CAN 차량 제어 통합
+- **제어 · 주요 참여** — STM32 임베디드 펌웨어, FreeRTOS 태스크 스케줄링, 속도·전류 제어와 회생제동, 조향 피드백·브레이크 구동, micro-ROS·CAN·UART 및 안전 처리
+- **판단 파트 협업** — 미션·경로·속도 계획과 Pure Pursuit·Stanley 경로 추종을 담당하는 판단 파트와 목표 명령·차량 상태 인터페이스 통합
 
 > 원본 코드와 대회용 설정은 팀 자산 보호와 향후 대회 준비를 위해 비공개입니다. 공개 포트폴리오에는 **최종 로직의 사용 목적과 시스템 흐름, 역할·성과·주행 영상**을 담았습니다.
 
-`ROS 2` `Camera · LiDAR` `ESKF` `FSM` `Pure Pursuit · Stanley` `STM32` `micro-ROS` `CAN`
+`ROS 2` `Camera · LiDAR` `ESKF` `STM32` `FreeRTOS` `micro-ROS` `CAN / UART` `Regenerative Braking`
 
 [**2026 수상 포트폴리오 ↗**](https://github.com/subin11111/teamkai-2026-portfolio) &nbsp;·&nbsp; [PM 역할과 기여](https://github.com/subin11111/teamkai-2026-portfolio/blob/main/docs/ROLE.md) &nbsp;·&nbsp; [주행 영상](https://github.com/subin11111/teamkai-2026-portfolio#driving)
 
@@ -203,7 +204,7 @@ iPhone RGB·LiDAR 깊이·ARKit 포즈에서 실내외 공간을 복원하고, �
 
 | 분야 | 사용 기술 |
 | :--- | :--- |
-| **Control & Embedded** | C / C++ · Python · STM32 · Arduino · micro-ROS · CAN · UART |
+| **Control & Embedded** | C / C++ · Python · STM32 · FreeRTOS · Arduino · micro-ROS · CAN · UART · 회생제동 |
 | **Robotics & Simulation** | ROS 2 · Gazebo · PX4 · SITL / HIL · RViz · Foxglove |
 | **Mapping & Vision** | RGB-D · OpenCV · Open3D · NumPy · SciPy · PyTorch |
 | **Web & Visualization** | TypeScript · React · Next.js · Three.js · MapLibre · Supabase |

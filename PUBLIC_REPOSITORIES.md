@@ -8,7 +8,7 @@ Team K.A.I. 자율주행 프로젝트를 중심으로 제어·시뮬레이션과
 
 | 프로젝트 | 내용 | 둘러보기 |
 | --- | --- | --- |
-| **Team K.A.I. 2026** | 대상 · 랩타임 1위 · 기술보고서 1위, PM 역할과 최종 시스템 요약 | [포트폴리오](https://github.com/subin11111/teamkai-2026-portfolio) · [주행 영상](https://github.com/subin11111/teamkai-2026-portfolio#driving) |
+| **Team K.A.I. 2026** | 대상 · 랩타임 1위 · 기술보고서 1위, PM 역할과 인지·임베디드 제어(RTOS·회생제동) 기여 | [포트폴리오](https://github.com/subin11111/teamkai-2026-portfolio) · [주행 영상](https://github.com/subin11111/teamkai-2026-portfolio#driving) |
 | **Team K.A.I. 2025** | 인지·판단·제어 전체 시스템 소개, 선별·축약 예제와 기술 | [프로젝트](https://github.com/subin11111/teamkai-2025-portfolio) · [예제](https://github.com/subin11111/teamkai-2025-portfolio/tree/main/examples) |
 | **Kookmin Xycar · 2026** | 국민대학교 자율주행 경진대회 특별상 팀 프로젝트 | [코드·미션](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) |
 | **ROS 2 Vehicle Control** | Arduino VCU, 구동·조향, CAN·시리얼과 상태 관측 | [제어 저장소](https://github.com/subin11111/ros2-autonomous-control) |
