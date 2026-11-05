@@ -95,6 +95,7 @@ Xycar에서 **차선 추종·신호등·지름길·라바콘·차량 회피**를
 
 | 이력 연도 | 대회·프로그램 | 결과 |
 | :--- | :--- | :--- |
+| **2026** | [건국대학교 학술공모전 · Folded City](https://github.com/subin11111/folded-city-atlas-public) | **최우수상 · 성(誠) 분야 1위** |
 | **2026** | [대학생 AI·S/W 모빌리티 경진대회 · 자작자율차 부문](https://github.com/subin11111/teamkai-2026-portfolio#results) | **대상 · 국토교통부장관상 · 랩타임 1위** |
 | **2026** | [대학생 AI·S/W 모빌리티 경진대회 · 창작기술부문](https://github.com/subin11111/teamkai-2026-portfolio#results) | **특별상 · 기술보고서 1위** |
 | **2026** | [국민대학교 자율주행 경진대회](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) | **특별상** |
@@ -105,7 +106,7 @@ Xycar에서 **차선 추종·신호등·지름길·라바콘·차량 회피**를
 | **2025** | 현대모비스 우수 SW동아리 | **Team K.A.I. 선정** |
 | **2025** | 건국대학교 창의융합 캡스톤디자인 | **팀 선정** |
 
-<sub>팀 수상·선정에는 Team K.A.I. 구성원으로 참여했습니다. KU:Maker는 대회명에 포함된 2024와 별도로, 수상 이력을 2025에 기록했습니다.</sub>
+<sub>Team K.A.I. 관련 수상·선정에는 팀 구성원으로 참여했습니다. KU:Maker는 대회명에 포함된 2024와 별도로, 수상 이력을 2025에 기록했습니다.</sub>
 
 <p align="center">
   <img src="assets/team-kai-awards-2026.png" width="100%" alt="2026 대학생 AI·S/W 모빌리티 경진대회 대상 수상 후 Team K.A.I. 단체사진">
@@ -130,6 +131,8 @@ PX4·Gazebo와 ROS 2를 연결해 지상 주행·비행·탐색·착륙 미션�
 `PX4 SITL` `Gazebo` `ROS 2` `Python` `C++` &nbsp;·&nbsp; [ROS 2 코드 ↗](https://github.com/subin11111/asp_ws) &nbsp;·&nbsp; [시뮬레이터 ↗](https://github.com/subin11111/asp/tree/jsb)
 
 ### Folded City — 공간을 잇는 지도
+
+**2026 건국대학교 학술공모전 최우수상 · 성(誠) 분야 1위**
 
 iPhone RGB·LiDAR 깊이·ARKit 포즈에서 실내외 공간을 복원하고, 여러 촬영본의 연결과 보행 경로를 연구합니다. 건국대학교 제1학생회관의 실외 접근로·로비·계단·2층을 연결해 3D 지도와 사진 길안내로 구현했습니다.
 
@@ -166,7 +169,7 @@ iPhone RGB·LiDAR 깊이·ARKit 포즈에서 실내외 공간을 복원하고, �
 - **[국민대학교 자율주행 경진대회 특별상](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI)** — Xycar 통합 주행 팀 프로젝트
 - **[대학생 AI·S/W 모빌리티 경진대회 자작자율차 부문 대상 · 랩타임 1위](https://github.com/subin11111/teamkai-2026-portfolio#results)**
 - 같은 대회 **[창작기술부문 특별상 · 기술보고서 1위](https://github.com/subin11111/teamkai-2026-portfolio#results)**
-- **Folded City** — 건국대학교 학술공모전 성(誠) 분야, 실내외 지도·경로 탐색 연구
+- **[Folded City — 2026 건국대학교 학술공모전 최우수상 · 성(誠) 분야 1위](https://github.com/subin11111/folded-city-atlas-public)** — 실내외 지도·경로 탐색 연구
 
 </details>
 

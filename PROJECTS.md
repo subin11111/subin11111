@@ -78,6 +78,8 @@ ROS 2 Humble 기반 Xycar에서 차선 주행과 대회 미션을 연결한 실�
 
 ## 3. Folded City — 실내외 지도와 경로 탐색
 
+**2026 건국대학교 학술공모전 최우수상 · 성(誠) 분야 1위**
+
 **질문:** 건물 앞에서 끝나는 지도를 목적지의 문 앞까지 이어갈 수 있을까?
 
 iPhone의 RGB-D와 저장 포즈로 공간을 복원하고, 실외·로비·계단·2층 촬영본을 연결했습니다. 영상 특징 대응과 기하 검사, 포즈 그래프 최적화 후보를 비교하고, 층별 보행 격자에서 A* 경로를 계산해 실제 사진 길안내와 웹 지도에 연결했습니다.
@@ -90,7 +92,7 @@ iPhone의 RGB-D와 저장 포즈로 공간을 복원하고, 실외·로비·계�
 
 **기술:** Python, OpenCV, Open3D, NumPy, SciPy, PyTorch, ROS 2, Three.js
 
-**활동 맥락:** 건국대학교 학술공모전 성(誠) 분야.
+**활동 맥락:** 2026 건국대학교 학술공모전 「공간의 변화와 인간의 삶」 · 성(誠) 분야 「첨단 기술이 만드는 새로운 공간」.
 
 [공개 연구·코드](https://github.com/subin11111/folded-city-atlas-public) · [연구 이력](https://github.com/subin11111/folded-city-atlas-public/blob/main/README_HISTORY.md) · [웹 지도](https://folded-city-atlas.vercel.app/)
 
