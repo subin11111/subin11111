@@ -12,7 +12,7 @@
 
 <br>
 
-제 프로젝트의 중심은 **Team K.A.I. 자율주행 차량 개발**입니다. 2026년에는 **자율주행 PM**으로 시스템 통합과 개발을 진행하고 있으며, 2025·2024년에는 제어파트에서 활동했습니다. **차량 제어·임베디드·ROS 2 통합·SITL/HIL 검증**을 연결합니다.
+제 프로젝트의 중심은 **Team K.A.I. 자율주행 차량 개발**입니다. 2026년에는 **자율주행 PM**으로 인지·판단·제어 전반의 협업과 시스템 통합을 관리하며 **인지와 제어에 주로 관여**했습니다. [**2026 대학생 AI·S/W 모빌리티 경진대회 대상 · 랩타임 1위 · 기술보고서 1위**](https://github.com/subin11111/teamkai-2026-portfolio)를 팀과 함께 달성했습니다.
 
 <a id="team-kai"></a>
 
@@ -20,7 +20,7 @@
 
 | 연도 | 역할 | 활동 |
 | :--- | :--- | :--- |
-| **2026** | **자율주행 PM** | 자율주행 프로젝트 관리 · 차량 제어 및 시스템 통합 |
+| **2026** | **자율주행 PM** | 인지·판단·제어 전반 관리 · 인지·제어 중심 개발 및 통합 · AI·S/W 모빌리티 경진대회 대상 |
 | **2025** | **제어파트 · 회장단 총무** | ROS 2 차량 제어 · 팀 운영 · 창작 모빌리티 경진대회 |
 | **2024** | **제어파트 파트원** | 자작자율차 개발 · 전국 대학생 창작 모빌리티 경진대회 참가 |
 
@@ -28,24 +28,21 @@
 
 ## 02 / Team K.A.I. Projects
 
-### 2026 · KAIEV26 — 자율주행 차량 제어와 통합 검증
+### 2026 · Team K.A.I. — 대상을 향한 자율주행 시스템 통합
 
-**Team K.A.I. 자율주행 PM · 현재 진행 중**
+**대상 · 랩타임 1위 · 기술보고서 1위 / 자율주행 PM**
 
-자작자율차의 **구동·조향·제동을 ROS 2와 임베디드 제어기로 연결**하는 팀 프로젝트입니다. 차량을 움직이는 하위 제어부터 시스템 식별, 제어기 비교, 시뮬레이션과 HIL 시험, 상태 관측까지 하나의 개발 흐름으로 구성합니다.
+2026 대학생 AI·S/W 모빌리티 경진대회에서 **자작자율차 부문 대상(국토교통부장관상)**과 **창작기술부문 특별상**을 수상한 팀 프로젝트입니다. PM으로 인지·판단·제어 전반의 일정과 협업, 시스템 통합·실차 검증을 관리했으며 **인지와 차량 제어의 개발·통합에 주로 참여**했습니다.
 
-> **2026 대회가 진행 중이므로 프로젝트 저장소와 소스코드는 비공개입니다. 이곳에는 프로젝트 개요만 소개합니다.**
+- **프로젝트 운영** — 개발 목표와 우선순위, 파트 간 인터페이스, 시험·이슈·재검증, 현장 운용과 기술 문서 협업 관리
+- **인지·위치 추정** — 카메라·LiDAR 관측과 GNSS·IMU·휠 속도 기반 위치 정보를 판단·제어로 연결
+- **판단·추종·제어** — 미션 상태와 경로·속도 계획, Pure Pursuit·Stanley 추종, STM32·micro-ROS·CAN 차량 제어 통합
 
-- **차량 제어·펌웨어** — STM32 기반 구동·브레이크 제어와 micro-ROS·CAN 통신, 조향 액추에이터 및 차량 상태 통합
-- **모델 기반 제어** — 주행 기록에서 모델을 식별하고, 조향·종방향 MPC와 기존 제어기의 응답을 비교하는 개발·분석
-- **SITL / HIL** — Gazebo와 STM 시험 보드, CAN 에뮬레이션을 연결해 입력·상태·명령 경로를 시험하는 환경
-- **시험·운용 도구** — 시나리오 러너, 파라미터 튜닝, MCAP 기록·분석, Vehicle Console 관측 및 HIL 인터페이스
+> 원본 코드와 대회용 설정은 팀 자산 보호와 향후 대회 준비를 위해 비공개입니다. 공개 포트폴리오에는 **최종 로직의 사용 목적과 시스템 흐름, 역할·성과·주행 영상**을 담았습니다.
 
-`ROS 2 Humble` `C / C++` `Python` `STM32` `micro-ROS` `CAN` `MPC` `Gazebo` `SITL / HIL`
+`ROS 2` `Camera · LiDAR` `ESKF` `FSM` `Pure Pursuit · Stanley` `STM32` `micro-ROS` `CAN`
 
-[프로젝트 개요와 제어 구성 ↗](PROJECTS.md#team-control)
-
-<sub>팀 프로젝트의 개발 내용을 소개합니다. 각 구성요소의 구현·검증 단계는 서로 다릅니다. 인지·판단은 센서 정보와 주행 행동을 연결하는 협업 맥락으로만 요약합니다.</sub>
+[**2026 수상 포트폴리오 ↗**](https://github.com/subin11111/teamkai-2026-portfolio) &nbsp;·&nbsp; [PM 역할과 기여](https://github.com/subin11111/teamkai-2026-portfolio/blob/main/docs/ROLE.md) &nbsp;·&nbsp; [주행 영상](https://github.com/subin11111/teamkai-2026-portfolio#driving)
 
 ---
 
@@ -97,6 +94,8 @@ Xycar에서 **차선 추종·신호등·지름길·라바콘·차량 회피**를
 
 | 이력 연도 | 대회·프로그램 | 결과 |
 | :--- | :--- | :--- |
+| **2026** | [대학생 AI·S/W 모빌리티 경진대회 · 자작자율차 부문](https://github.com/subin11111/teamkai-2026-portfolio#results) | **대상 · 국토교통부장관상 · 랩타임 1위** |
+| **2026** | [대학생 AI·S/W 모빌리티 경진대회 · 창작기술부문](https://github.com/subin11111/teamkai-2026-portfolio#results) | **특별상 · 기술보고서 1위** |
 | **2026** | [국민대학교 자율주행 경진대회](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) | **특별상** |
 | **2025** | [대학생 창작 모빌리티 경진대회 · 자작자율차 부문](https://github.com/subin11111/teamkai-2025-portfolio) | **창작기술 우수상 · 1위** |
 | **2025** | [대학생 창작 모빌리티 경진대회 · 자작자율차 부문](https://github.com/subin11111/teamkai-2025-portfolio) | **자율주행성능 특별상** |
@@ -108,9 +107,9 @@ Xycar에서 **차선 추종·신호등·지름길·라바콘·차량 회피**를
 <sub>팀 수상·선정에는 Team K.A.I. 구성원으로 참여했습니다. KU:Maker는 대회명에 포함된 2024와 별도로, 수상 이력을 2025에 기록했습니다.</sub>
 
 <p align="center">
-  <img src="assets/team-kai-awards-2025.png" width="100%" alt="2025 대학생 창작 모빌리티 경진대회에서 우수상과 특별상을 수상한 Team K.A.I. 팀원들과 차량">
+  <img src="assets/team-kai-awards-2026.png" width="100%" alt="2026 대학생 AI·S/W 모빌리티 경진대회 대상 수상 후 Team K.A.I. 단체사진">
   <br>
-  <sub><b>2025 대학생 창작 모빌리티 경진대회</b> · Team K.A.I.<br>창작기술 우수상 · 자율주행성능 특별상</sub>
+  <sub><b>2026 대학생 AI·S/W 모빌리티 경진대회</b> · Team K.A.I.<br>대상 · 랩타임 1위 · 기술보고서 1위</sub>
 </p>
 
 <a id="related-projects"></a>
@@ -161,10 +160,11 @@ iPhone RGB·LiDAR 깊이·ARKit 포즈에서 실내외 공간을 복원하고, �
 <details open>
 <summary><b>2026 · Project management & autonomous systems</b></summary>
 
-- 건국대학교 Team K.A.I. 자율주행 **PM**
+- 건국대학교 Team K.A.I. 자율주행 **PM** — 인지·판단·제어 전반 관리, 인지·제어 중심 개발·통합
 - 건국대학교 **ADP LAB 동계 인턴** — 문창주 교수님 연구실 · Bike Anomaly 이상 탐지·조기 경보 프로젝트
 - **[국민대학교 자율주행 경진대회 특별상](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI)** — Xycar 통합 주행 팀 프로젝트
-- 대학생 AI·SW 모빌리티 경진대회 자작자율차 부문 관련 활동
+- **[대학생 AI·S/W 모빌리티 경진대회 자작자율차 부문 대상 · 랩타임 1위](https://github.com/subin11111/teamkai-2026-portfolio#results)**
+- 같은 대회 **[창작기술부문 특별상 · 기술보고서 1위](https://github.com/subin11111/teamkai-2026-portfolio#results)**
 - **Folded City** — 건국대학교 학술공모전 성(誠) 분야, 실내외 지도·경로 탐색 연구
 
 </details>

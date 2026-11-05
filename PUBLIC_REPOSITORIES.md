@@ -8,12 +8,13 @@ Team K.A.I. 자율주행 프로젝트를 중심으로 제어·시뮬레이션과
 
 | 프로젝트 | 내용 | 둘러보기 |
 | --- | --- | --- |
+| **Team K.A.I. 2026** | 대상 · 랩타임 1위 · 기술보고서 1위, PM 역할과 최종 시스템 요약 | [포트폴리오](https://github.com/subin11111/teamkai-2026-portfolio) · [주행 영상](https://github.com/subin11111/teamkai-2026-portfolio#driving) |
 | **Team K.A.I. 2025** | 인지·판단·제어 전체 시스템 소개, 선별·축약 예제와 기술 | [프로젝트](https://github.com/subin11111/teamkai-2025-portfolio) · [예제](https://github.com/subin11111/teamkai-2025-portfolio/tree/main/examples) |
 | **Kookmin Xycar · 2026** | 국민대학교 자율주행 경진대회 특별상 팀 프로젝트 | [코드·미션](https://github.com/subin11111/kookmin_autonomous_competition_teamKAI) |
 | **ROS 2 Vehicle Control** | Arduino VCU, 구동·조향, CAN·시리얼과 상태 관측 | [제어 저장소](https://github.com/subin11111/ros2-autonomous-control) |
 | **Autonomous Driving Platform** | 차선 인식·주행 명령·MCU 브리지와 mock bringup | [통합 플랫폼](https://github.com/subin11111/autonomous-driving-platform) |
 
-2025 전체 원본과 대회용 구현·설정은 대회 준비를 위해 비공개입니다. 현재 진행 중인 2026 프로젝트 원본도 비공개이며, Kookmin Xycar는 별도로 공개된 대회 팀 저장소입니다. 개인의 2025 역할은 제어파트·총무이며, 인지·판단을 포함한 전체 시스템은 팀 공동 작업으로 소개합니다.
+2025 전체 원본과 대회용 구현·설정은 대회 준비를 위해 비공개입니다. 2026 수상 프로젝트는 역할·성과·시스템 요약을 공개하고 원본 코드는 비공개로 유지합니다. Kookmin Xycar는 별도로 공개된 대회 팀 저장소입니다. 개인의 2025 역할은 제어파트·총무이며, 인지·판단을 포함한 전체 시스템은 팀 공동 작업으로 소개합니다.
 
 ## Robotics / Simulation
 
